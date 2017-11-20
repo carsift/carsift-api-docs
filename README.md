@@ -26,61 +26,19 @@ GET /questions
 ````json
 {
     "data": [{
-        "id": 1,
-        "ref": "budget",
-        "title": "Chaque mois, quel montant voulez-vous consacrer \u00e0 votre auto?",
+        "id": 13,
+        "ref": "price",
+        "title": "What is your budget?",
         "subtitle": null,
-        "short_title": "Budget mensuel",
-        "type": "options",
+        "short_title": "Price",
+        "type": "string",
         "direction": null,
         "required": true,
         "default_answer": null,
         "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-001.gif",
+        "aux_image": "https://cdn.widget.carsift.co/aux_images/carsift-gif-001.gif",
         "rank": null,
-        "options": [{
-            "id": 1,
-            "ref": "200",
-            "title": "200\u20ac",
-            "subtitle": null,
-            "short_title": "200\u20ac",
-            "image": null
-        }, {
-            "id": 2,
-            "ref": "300",
-            "title": "300\u20ac",
-            "subtitle": null,
-            "short_title": "300\u20ac",
-            "image": null
-        }, {
-            "id": 3,
-            "ref": "400",
-            "title": "400\u20ac",
-            "subtitle": null,
-            "short_title": "400\u20ac",
-            "image": null
-        }, {
-            "id": 4,
-            "ref": "500",
-            "title": "500\u20ac",
-            "subtitle": null,
-            "short_title": "500\u20ac",
-            "image": null
-        }, {
-            "id": 5,
-            "ref": "600",
-            "title": "600\u20ac",
-            "subtitle": null,
-            "short_title": "600\u20ac",
-            "image": null
-        }, {
-            "id": 6,
-            "ref": "700",
-            "title": "700\u20ac",
-            "subtitle": null,
-            "short_title": "700\u20ac",
-            "image": null
-        }]
+        "options": []
     }, {
         "id": 2,
         "ref": "length",
@@ -107,97 +65,6 @@ GET /questions
             "title": "Grand",
             "subtitle": null,
             "short_title": "Grand",
-            "image": null
-        }]
-    }, {
-        "id": 3,
-        "ref": "seat-height",
-        "title": "Quelle est votre position de conduite pr\u00e9f\u00e9r\u00e9e?",
-        "subtitle": null,
-        "short_title": "Position de conduite",
-        "type": "radio",
-        "direction": "horizontal",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-003.gif",
-        "rank": null,
-        "options": [{
-            "id": 10,
-            "ref": "regular",
-            "title": "Normale",
-            "subtitle": null,
-            "short_title": "Normale",
-            "image": null
-        }, {
-            "id": 11,
-            "ref": "high",
-            "title": "Haute",
-            "subtitle": null,
-            "short_title": "Haute",
-            "image": null
-        }]
-    }, {
-        "id": 4,
-        "ref": "seats",
-        "title": "Vous voyagez nombreux? Combien de places avez-vous besoin?",
-        "subtitle": null,
-        "short_title": "Si\u00e8ges",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-004.gif",
-        "rank": null,
-        "options": [{
-            "id": 13,
-            "ref": "4-5",
-            "title": "4-5",
-            "subtitle": null,
-            "short_title": "4-5",
-            "image": null
-        }, {
-            "id": 14,
-            "ref": "6-9",
-            "title": "7",
-            "subtitle": null,
-            "short_title": "7",
-            "image": null
-        }]
-    }, {
-        "id": 5,
-        "ref": "gearbox",
-        "title": "Votre pr\u00e9f\u00e9rence pour la boite de vitesse?",
-        "subtitle": null,
-        "short_title": "Transmission",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-005.gif",
-        "rank": null,
-        "options": [{
-            "id": 15,
-            "ref": "manual",
-            "title": "Manuelle",
-            "subtitle": null,
-            "short_title": "Manuelle",
-            "image": null
-        }, {
-            "id": 16,
-            "ref": "automatic",
-            "title": "Automatique",
-            "subtitle": null,
-            "short_title": "Automatique",
-            "image": null
-        }, {
-            "id": 17,
-            "ref": "either",
-            "title": "Sans avis",
-            "subtitle": null,
-            "short_title": "Sans avis",
             "image": null
         }]
     }, {
@@ -249,217 +116,166 @@ GET /questions
             "short_title": "Radars de recul",
             "image": null
         }]
-    }, {
-        "id": 7,
-        "ref": "premium",
-        "title": "Recherchez-vous un v\u00e9hicule Premium?",
-        "subtitle": null,
-        "short_title": "Premium",
-        "type": "radio",
-        "direction": "horizontal",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-001.gif",
-        "rank": null,
-        "options": [{
-            "id": 24,
-            "ref": "premium",
-            "title": "Oui",
-            "subtitle": null,
-            "short_title": "Oui",
-            "image": null
-        }, {
-            "id": 25,
-            "ref": "cheap",
-            "title": "Pas forc\u00e9ment",
-            "subtitle": null,
-            "short_title": "Pas forc\u00e9ment",
-            "image": null
-        }]
-    }, {
-        "id": 8,
-        "ref": "tech",
-        "title": "Appr\u00e9ciez-vous les derni\u00e8res technologies?",
-        "subtitle": null,
-        "short_title": "Technologie",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-002.gif",
-        "rank": null,
-        "options": [{
-            "id": 26,
-            "ref": "tech",
-            "title": "Dernier cri",
-            "subtitle": null,
-            "short_title": "Technology",
-            "image": null
-        }, {
-            "id": 27,
-            "ref": "simple",
-            "title": "Simple",
-            "subtitle": null,
-            "short_title": "Simple",
-            "image": null
-        }]
-    }, {
-        "id": 9,
-        "ref": "performance",
-        "title": "Vous vous y connaissez en motorisation? Votre prochain v\u00e9hicule doit \u00eatre plut\u00f4t?",
-        "subtitle": null,
-        "short_title": "Performance",
-        "type": "radio",
-        "direction": "horizontal",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-003.gif",
-        "rank": null,
-        "options": [{
-            "id": 28,
-            "ref": "fast",
-            "title": "Puissant",
-            "subtitle": null,
-            "short_title": "Puissant",
-            "image": null
-        }, {
-            "id": 29,
-            "ref": "economical",
-            "title": "Economique",
-            "subtitle": null,
-            "short_title": "Economique",
-            "image": null
-        }]
-    }, {
-        "id": 10,
-        "ref": "miles",
-        "title": "Grand ou petit rouleur? Quel kilom\u00e9trage parcourez-vous chaque ann\u00e9e?",
-        "subtitle": null,
-        "short_title": "Kilom\u00e9trage",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-004.gif",
-        "rank": null,
-        "options": [{
-            "id": 30,
-            "ref": "3107",
-            "title": "< \u00e0 5 000km",
-            "subtitle": null,
-            "short_title": "< \u00e0 5 000km",
-            "image": null
-        }, {
-            "id": 31,
-            "ref": "6214",
-            "title": "10 000 - 12 000km",
-            "subtitle": null,
-            "short_title": "10 000 - 12 000km",
-            "image": null
-        }, {
-            "id": 32,
-            "ref": "9321",
-            "title": "15 000km",
-            "subtitle": null,
-            "short_title": "15 000km",
-            "image": null
-        }, {
-            "id": 33,
-            "ref": "12427",
-            "title": "> \u00e0 20 000km",
-            "subtitle": null,
-            "short_title": "> \u00e0 20 000km",
-            "image": null
-        }]
-    }, {
-        "id": 11,
-        "ref": "vehicle-age",
-        "title": "Vous recherchez un v\u00e9hicule...",
-        "subtitle": null,
-        "short_title": "L\u2019\u00e2ge du v\u00e9hicule",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-005.gif",
-        "rank": null,
-        "options": [{
-            "id": 34,
-            "ref": "0-12",
-            "title": "Quasi neuf ou moins d\u20191 an",
-            "subtitle": null,
-            "short_title": "Quasi neuf ou moins d\u20191 an",
-            "image": null
-        }, {
-            "id": 35,
-            "ref": "0-36",
-            "title": "Moins de 3 ans",
-            "subtitle": null,
-            "short_title": "Moins de 3 ans",
-            "image": null
-        }, {
-            "id": 36,
-            "ref": "0-60",
-            "title": "Moins de 5 ans",
-            "subtitle": null,
-            "short_title": "Moins de 5 ans",
-            "image": null
-        }, {
-            "id": 37,
-            "ref": "0-999",
-            "title": "5 ans et plus",
-            "subtitle": null,
-            "short_title": "5 ans et plus",
-            "image": null
-        }]
-    }, {
-        "id": 12,
-        "ref": "journey-position",
-        "title": "Pr\u00eat ou curieux? Dans quel d\u00e9lai allez-vous r\u00e9aliser cet achat automobile?",
-        "subtitle": null,
-        "short_title": "Decision",
-        "type": "radio",
-        "direction": "vertical",
-        "required": true,
-        "default_answer": null,
-        "placeholder": null,
-        "aux_image": "https:\/\/cdn.widget.carsift.co\/aux_images\/carsift-gif-006.gif",
-        "rank": null,
-        "options": [{
-            "id": 38,
-            "ref": "now",
-            "title": "Maintenant",
-            "subtitle": null,
-            "short_title": "Maintenant",
-            "image": null
-        }, {
-            "id": 39,
-            "ref": "<3m",
-            "title": "Moins de 3 mois",
-            "subtitle": null,
-            "short_title": "Moins de 3 mois",
-            "image": null
-        }, {
-            "id": 40,
-            "ref": "this-year",
-            "title": "Cette ann\u00e9e",
-            "subtitle": null,
-            "short_title": "Cette ann\u00e9e",
-            "image": null
-        }, {
-            "id": 41,
-            "ref": "just-looking",
-            "title": "Simple curiosit\u00e9 \u00e0 ce stade",
-            "subtitle": null,
-            "short_title": "Simple curiosit\u00e9 \u00e0 ce stade",
-            "image": null
-        }]
     }],
     "search_id": 87389
+}
+````
+
+# Search
+This endpoint is used to:
+- retrieve the number of results available 
+- retrieve the top results (optional)
+- provide answers (optional)
+Company ID and Seach ID must be provided.
+
+Previous answers can be overwritten by simply providing a new answer for that question ID.
+
+New answers and the retrieval of answers are optional, so the request can be used to just retrieve a result count for the current search. This can be done before providing any answers for the initial vehicle count.
+
+## Fields
+| Fields        | Info          |
+| ------------- | ------------- |
+| answers       | an array of answer objects (see below)            |
+| search_id     | returned from Get Questions                       |
+| results       | number of results you want to have returned (0-20)  |
+
+## Answer Objects
+| Fields        | Info          |
+| ------------- | ------------- |
+| id            | The ID of the question being answered.                                         |
+| answers       | An array of answers, generally an option ID from Get Questions or a string. An array is required for both single answers and multi option answers |
+
+## Example Request
+````
+POST /results
+    ?company_id={company_id}
+````
+JSON Body:
+````json
+{
+    "answers":[
+        {
+            "id":13,
+            "answers":[40000]
+        },
+        {
+            "id":2,
+            "answers":[8]
+        },
+        {
+            "id":6,
+            "answers":[18,20,22]
+        }
+    ],
+    "search_id":123456,
+    "results":1
+}
+````
+## Example Response:
+````json
+{
+    "data": [
+        {
+            "id": 3039,
+            "unique_id": "DFB_28244",
+            "url": "http://www.autobonplan.com/volkswagen-tiguan-ii-2-0-tdi-150ch-confortline-refdfb_28244.html?utm_medium=carsift",
+            "manufacturer": {
+                "id": 6,
+                "ref": "VOLKSWAGEN",
+                "name": "VOLKSWAGEN",
+                "title": "Volkswagen"
+            },
+            "range_name": "TIGUAN II",
+            "model_name": "TIGUAN II 2.0 TDI 150CH CONFORTLINE",
+            "der_name": "2.0 TDI 150CH CONFORTLINE",
+            "manufactured_year": 2017,
+            "manufactured_at": "2017-07-01",
+            "spec": {
+                "fuel_economy": {
+                    "urban": "5.7 L/100Km",
+                    "extra": "4.2 L/100Km",
+                    "combined": "4.7 L/100Km"
+                },
+                "fuel_type": "Diesel",
+                "fuel_capacity": "--",
+                "transmission": "BVM6",
+                "body_style": "BREAK",
+                "volume": "--",
+                "power1": "8 cv",
+                "power2": "150 ch",
+                "discount": "-15%",
+                "guarantee": "--",
+                "wheelbase": "--",
+                "doors": 5,
+                "seats": 5,
+                "dimensions": {
+                    "width": "1839mm",
+                    "height": "1632mm",
+                    "length": "4486mm"
+                },
+                "co2": "123 g/km",
+                "colour": "Blanc Pur"
+            },
+            "features": [
+                "Phares à LED avec feux de jour à LED",
+                "Système Navigation Discover Media",
+                "JA 18\" Kingston 235/55R18",
+                "Blanc Pur",
+                "Prise auxiliaire de connexion audio",
+                "Prise 12V",
+                "Préparation Isofix",
+                "Pré-équipement Kit Bluetooth",
+                "Porte-gobelets arrière",
+                "Pommeau de levier vitesse en cuir",
+                "Poignées ton carrosserie",
+            ],
+            "mileage": {
+                "miles": "6m",
+                "km": "10km"
+            },
+            "images": [
+                {
+                    "id": 19344,
+                    "url": "https://tpimg.carsift.co/1/media/catalog/product/placeholder/default/vehicule_en_arrivage_2.png",
+                    "type": ""
+                }
+            ],
+            "price": {
+                "outright": {
+                    "total": 32298.2
+                },
+                "monthly": {
+                    "total": 367.94,
+                    "monthly": 367.94,
+                    "deposit": 0,
+                    "term": 0
+                }
+            },
+            "legal": {
+                "rows": {
+                    "Pour un véhicule de": "32 298.00 €",
+                    "Apport": "9 689.40 €",
+                    "Montant emprunté": "22 608.60 €",
+                    "Durée": "72 mois",
+                    "Mensualité": "367.94 €",
+                    "Coût total du crédit": "3 883.08 €",
+                    "Dont frais de dossier": "452.17 €",
+                    "Dont intérêts": "3 430.91 €",
+                    "Taux débiteur fixe": "4.68 %",
+                    "TAEG fixe": "5.49 %",
+                    "Montant total dû": "26 491.68 €"
+                },
+                "legal": "Offre pour un achat et un crédit accessoire à une vente à partir de 1 500€ empruntés remboursable sur une durée de 12 à 84 mois, pour l'achat d'un véhicule neuf. <strong>Le Taux Annuel Effectif Global fixe est compris entre 4,54% à 6,39%.</strong> Sous réserve d'acceptation du dossier par BNP Paribas Personal Finance, établissement de crédit : 1 bd Haussmann 75 009 Paris, SA au capital de 529 548 810€, 542 097 902 RCS Paris, N°ORIAS : 07 023 128 (www.orias.fr). Cetelem est une marque de BNP Paribas Personal Finance. Vous disposez d'un droit de rétractation. Conditions en vigueur au 26/07/2017. ",
+                "example": "<strong>Exemple (hors assurances facultatives)</strong> : Pour un achat de 15 000€ avec un apport de 4 500€ et un crédit accessoire à une vente de 10 500 € sur 49 mois au <strong>Taux Annuel Effectif Global Fixe de 5,49%</strong> (taux débiteur fixe : 4,37%), vous remboursez 49<strong> mensualités de 239,05€</strong>, intérêts : 1 003,45€, frais de dossier : 210,00€. <strong>Montant total dû : 11 713,45€</strong>. Coût mensuel de l’assurance facultative* : 14,18€. Coût total de cette assurance facultative : 694,58€. Taux Annuel Effectif de cette Assurance : 3,05%. *Le coût mensuel de l’assurance facultative Décès, Perte Totale et Irréversible d’Autonomie, Incapacité Temporaire Totale de Travail (souscrite auprès de Cardif Assurance Vie et Cardif Assurances Risques Divers) s’ajoute au montant de la mensualité ci-dessus."
+            },
+            "new": true,
+            "score": {
+                "total": 100
+            }
+        }
+    ],
+    "search_id": 23,
+    "result_set_id": 177,
+    "result_count": 27
 }
 ````

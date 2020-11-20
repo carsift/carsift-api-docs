@@ -1,5 +1,5 @@
 # Carsift API Docs
-All requests should be made to https://api.carsift.co.
+All requests should be made to the carsift end point - this should be requested from he team help@carsift.co
 
 # Sessions
 Sessions are managed via cookies. All requests to the API must include cookies (see [withCredentials](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials)).
